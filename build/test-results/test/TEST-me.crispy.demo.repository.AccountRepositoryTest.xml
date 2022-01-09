@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.crispy.demo.repository.AccountRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-09T14:07:57" hostname="MacBook-Pro.local" time="0.306">
+  <properties/>
+  <testcase name="Mockito 를 사용하여 인터페이스로만 테스트" classname="me.crispy.demo.repository.AccountRepositoryTest" time="0.306"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
