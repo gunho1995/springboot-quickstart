@@ -9,7 +9,11 @@ public class JpaRepository implements AccountRepository{
     // TO BE IMPLEMENTED AFTER UNIT TEST DESIGN
     @Override
     public Account save(Account account) {
-        return null;
+        Account account1 = new Account();
+        account1.setAge(account.getAge());
+        account1.setName(account.getName());
+
+        return account1;
     }
 
     @Override
