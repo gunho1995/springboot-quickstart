@@ -24,6 +24,13 @@ class AccountRepositoryTest {
 
     @Test
     void findById() {
+        Account account = new Account();
+        account.setName("crispy");
+        account.setAge(20);
+
+        AccountRepository accountRepository = Mockito.mock(AccountRepository.class);
+
+        assertEquals("crispy", accountRepository.findByName("crispy"));
     }
 
     @Test
